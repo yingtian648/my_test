@@ -1,0 +1,18 @@
+{
+  "url": "/workOrder/location",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "cases": [
+    {
+      "params": {
+        "woId": "263607914810351616",
+        "lat": "30.54785",
+        "lng": "104.070209",
+        "address": "成都市高新区天府四街199号",
+        "locationDate": "2018-12-29 10:02:29"
+      }
+    }
+  ]
+}

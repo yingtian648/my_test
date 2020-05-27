@@ -1,0 +1,490 @@
+1539225139826	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.1Dt6ouJWeMrC"
+1539225146357	Marionette	INFO	Listening on port 56057
+1539225148467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539225148503	Marionette	DEBUG	[6442450945] Frame script loaded
+1539225148504	Marionette	DEBUG	[6442450945] Frame script registered
+1539225148816	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539225149706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539225150997	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539225155164	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539225155297	Marionette	DEBUG	[6442450949] Frame script loaded
+1539225155333	Marionette	DEBUG	[6442450949] Frame script registered
+1539225155335	Marionette	INFO	Stopped listening on port 56057
+1539225155364	Marionette	DEBUG	[6442450952] Frame script loaded
+1539225155405	Marionette	DEBUG	[6442450952] Frame script registered
+[Child 9552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539225822772	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.fTcRowoBRZIr"
+1539225827097	Marionette	INFO	Listening on port 56164
+1539225829135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539225829163	Marionette	DEBUG	[6442450945] Frame script loaded
+1539225829164	Marionette	DEBUG	[6442450945] Frame script registered
+1539225829231	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539225830131	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539225830641	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539225832680	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539225832766	Marionette	DEBUG	[6442450949] Frame script loaded
+1539225832796	Marionette	DEBUG	[6442450949] Frame script registered
+1539225832827	Marionette	DEBUG	[6442450952] Frame script loaded
+1539225832840	Marionette	ERROR	[6442450952] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 457: TypeError: reply[0] is undefined
+[Parent 6760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539225893795	Marionette	INFO	Stopped listening on port 56164
+[GPU 11224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539226101609	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.d2b5JkwfO8CH"
+1539226105880	Marionette	INFO	Listening on port 56242
+1539226105961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539226105993	Marionette	DEBUG	[6442450945] Frame script loaded
+1539226105995	Marionette	DEBUG	[6442450945] Frame script registered
+1539226107745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539226109093	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539226109744	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539226113175	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539226113262	Marionette	DEBUG	[6442450949] Frame script loaded
+1539226113292	Marionette	DEBUG	[6442450949] Frame script registered
+1539226113319	Marionette	DEBUG	[6442450952] Frame script loaded
+1539226113328	Marionette	ERROR	[6442450952] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 457: TypeError: reply[0] is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+[Child 9360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc1539226603691	Marionette	INFO	Listening on port 56434
+1539226605877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539226605905	Marionette	DEBUG	[6442450945] Frame script loaded
+1539226605906	Marionette	DEBUG	[6442450945] Frame script registered
+1539226606006	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539226607433	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539226607843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539226610559	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539226610638	Marionette	DEBUG	[6442450949] Frame script loaded
+1539226610664	Marionette	DEBUG	[6442450949] Frame script registered
+1539226610693	Marionette	DEBUG	[6442450952] Frame script loaded
+1539226610694	Marionette	DEBUG	[6442450952] Frame script registered
+1539226610705	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539226610855	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539226610856	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539226611092	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539226611127	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Child 5772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539226922041	Marionette	INFO	Stopped listening on port 56434
+[GPU 7492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+952] Frame script loaded
+1539226668507	Marionette	DEBUG	[6442450952] Frame script registered
+1539226668522	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539226668648	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539226668650	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539226668654	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539226668720	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Child 1212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip1539226875361	Marionette	INFO	Listening on port 56543
+1539226875944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539226875974	Marionette	DEBUG	[6442450945] Frame script loaded
+1539226875974	Marionette	DEBUG	[6442450945] Frame script registered
+1539226876149	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539226877537	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539226877919	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539226880219	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539226880299	Marionette	DEBUG	[6442450949] Frame script loaded
+1539226880331	Marionette	DEBUG	[6442450949] Frame script registered
+1539226880354	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539226880369	Marionette	DEBUG	[6442450952] Frame script loaded
+1539226880369	Marionette	DEBUG	[6442450952] Frame script registered
+1539226880546	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539226880548	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539226880552	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539226880616	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227187557	Marionette	INFO	Stopped listening on port 56543
+[GPU 8736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tte	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539226928690	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539226928697	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539226928774	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Parent 9280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227185013	Marionette	INFO	Stopped listening on port 56593
+[GPU 10392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+G	[6442450949] Frame script loaded
+1539227075628	Marionette	DEBUG	[6442450949] Frame script registered
+1539227075650	Marionette	DEBUG	[6442450952] Frame script loaded
+1539227075656	Marionette	DEBUG	[6442450952] Frame script registered
+1539227075665	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539227075791	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539227075792	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539227075805	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227075871	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Child 4280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8292, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227183222	Marionette	INFO	Stopped listening on port 56654
+[GPU 2144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+50945] Received DOM event pagehide for http://www.ettda.com/
+1539227176013	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539227176018	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227176081	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Child 11712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227181423	Marionette	INFO	Stopped listening on port 56718
+[GPU 11392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539227221319	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.c8qqxAoBWemc"
+1539227225726	Marionette	INFO	Listening on port 56766
+1539227227070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227227101	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227227102	Marionette	DEBUG	[6442450945] Frame script registered
+1539227227175	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227228229	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227228572	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539227231132	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539227231221	Marionette	DEBUG	[6442450949] Frame script loaded
+1539227231248	Marionette	DEBUG	[6442450949] Frame script registered
+1539227231266	Marionette	DEBUG	[6442450952] Frame script loaded
+1539227231281	Marionette	DEBUG	[6442450952] Frame script registered
+1539227231290	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539227231426	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539227231428	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539227231432	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227231504	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Child 6536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227362621	Marionette	INFO	Stopped listening on port 56766
+[GPU 8456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+UG	[6442450952] Frame script loaded
+1539227330302	Marionette	DEBUG	[6442450952] Frame script registered
+1539227330426	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539227330427	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539227330438	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227330508	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+1539227360674	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.VfAdX9qs2JJy"
+1539227365245	Marionette	INFO	Listening on port 56940
+1539227366347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227366375	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227366375	Marionette	DEBUG	[6442450945] Frame script registered
+1539227366445	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227367090	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227367440	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/
+1539227370208	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/
+1539227370284	Marionette	DEBUG	[6442450949] Frame script loaded
+1539227370318	Marionette	DEBUG	[6442450949] Frame script registered
+1539227370340	Marionette	DEBUG	[6442450952] Frame script loaded
+1539227370346	Marionette	DEBUG	[6442450952] Frame script registered
+1539227370358	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://www.ettda.com/
+1539227370485	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://www.ettda.com/
+1539227370486	Marionette	DEBUG	[6442450945] Received DOM event unload for http://www.ettda.com/
+1539227370496	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227370567	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227376435	Marionette	INFO	Stopped listening on port 56940
+[GPU 8912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539227396104	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Srt1KPu0lPMX"
+1539227399832	Marionette	INFO	Listening on port 57000
+1539227400043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227400072	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227400073	Marionette	DEBUG	[6442450945] Frame script registered
+1539227400152	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227400295	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227400299	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://www.ettda.com/login
+1539227400323	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://www.ettda.com/login
+1539227424217	Marionette	DEBUG	[6442450950] Frame script loaded
+1539227424243	Marionette	DEBUG	[6442450950] Frame script registered
+1539227424265	Marionette	DEBUG	[6442450953] Frame script loaded
+1539227424267	Marionette	DEBUG	[6442450953] Frame script registered
+[Parent 7204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227445995	Marionette	INFO	Stopped listening on port 57000
+[GPU 9896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539227453106	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.efF86mssKg8k"
+1539227456866	Marionette	INFO	Listening on port 57047
+1539227457076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227457105	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227457105	Marionette	DEBUG	[6442450945] Frame script registered
+1539227457185	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227457518	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227457523	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/login
+1539227457550	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+[Child 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227485771	Marionette	INFO	Stopped listening on port 57047
+[GPU 10040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539227493222	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.8tvnXh66YfEm"
+1539227497004	Marionette	INFO	Listening on port 57087
+1539227498758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227498786	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227498787	Marionette	DEBUG	[6442450945] Frame script registered
+1539227498987	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227499864	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227500390	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539227500539	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: http://maintenance.ettda.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+[Child 8432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539227919183	Marionette	INFO	Stopped listening on port 57087
+[GPU 10992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+227675610	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227675612	Marionette	DEBUG	[6442450945] Frame script registered
+1539227675697	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227675800	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227676555	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539227676670	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539227846238	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.zGV4CSJJA7iQ"
+1539227850264	Marionette	INFO	Listening on port 57232
+1539227850880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227850907	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227850908	Marionette	DEBUG	[6442450945] Frame script registered
+1539227850992	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227851772	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227852270	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539227852566	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+[Parent 10420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr1539227885087	Marionette	INFO	Listening on port 57271
+1539227885296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227885324	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227885324	Marionette	DEBUG	[6442450945] Frame script registered
+1539227885405	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227885510	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227886211	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539227886417	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539227928715	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.iRQ3dAf4mlbg"
+1539227932488	Marionette	INFO	Listening on port 57310
+1539227932670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539227932698	Marionette	DEBUG	[6442450945] Frame script loaded
+1539227932698	Marionette	DEBUG	[6442450945] Frame script registered
+1539227932765	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539227933005	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539227933587	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539227933806	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539227934144	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539228105703	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.XQM9mEjIe1Tk"
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+1539228109526	Marionette	INFO	Listening on port 57472
+1539228109613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539228109640	Marionette	DEBUG	[6442450945] Frame script loaded
+1539228109641	Marionette	DEBUG	[6442450945] Frame script registered
+1539228109719	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539228111110	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539228112003	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539228112222	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539228118567	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 11496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539228199350	Marionette	INFO	Stopped listening on port 57472
+[GPU 6212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+vent is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539228163964	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539228196850	mozrunner::runner	INFO	Running command: "c:\\program files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.OHTG8GaUyWEP"
+1539228201009	Marionette	INFO	Listening on port 57562
+1539228201208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539228201235	Marionette	DEBUG	[6442450945] Frame script loaded
+1539228201236	Marionette	DEBUG	[6442450945] Frame script registered
+1539228201298	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539228201610	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539228202231	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://maintenance.ettda.com/#/login
+1539228202512	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://maintenance.ettda.com/#/login
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+JavaScript error: http://maintenance.ettda.com/static/js/19.6e2a1d5dff192a8946c3.js, line 1: TypeError: window.event is undefined
+1539228205185	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539228210188	Marionette	INFO	Stopped listening on port 57562
+[Child 10784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

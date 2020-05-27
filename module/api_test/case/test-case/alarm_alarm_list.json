@@ -1,0 +1,14 @@
+{
+  "url": "/alarm/alarm_list",
+  "header": {},
+  "method": "GET",
+  "cases": [
+    {
+      "params": {
+        "page": "value",
+        "pageSize": "value",
+        "publicId": "value"
+      }
+    }
+  ]
+}

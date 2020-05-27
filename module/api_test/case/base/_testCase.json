@@ -1,0 +1,35 @@
+{
+  "url": "/api-elevator-safety-big-data/getTodayRescueEvents",
+  "header": {
+    "companyId": "358925794392687569",
+    "companyType": 5
+  },
+  "method": "GET",
+  "automationCase": {
+    "header": {},
+    "method": {},
+    "params": {
+      "evId": [
+        "197363018554679296",
+        "1212",
+        1112
+      ],
+      "fileNumber": [
+        "11111",
+        22222
+      ]
+    }
+  },
+  "cases": [
+    {
+      "repeat": 1,
+      "header": {
+
+      },
+      "method": "GET",
+      "params": {
+
+      }
+    }
+  ]
+}

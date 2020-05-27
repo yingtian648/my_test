@@ -1,0 +1,39 @@
+{
+  "url": "/workOrder/create",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "cases": [
+    {
+      "params": {
+        "evId": "9149",
+        "woType": 4
+      }
+    },
+    {
+      "params": {
+        "evId": "9149",
+        "woType": 4
+      }
+    },
+    {
+      "params": {
+        "evId": "9149",
+        "woType": 4
+      }
+    },
+    {
+      "params": {
+        "evId": "9149",
+        "woType": 4
+      }
+    },
+    {
+      "params": {
+        "evId": "9149",
+        "woType": 4
+      }
+    }
+  ]
+}

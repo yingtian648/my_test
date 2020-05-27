@@ -1,0 +1,633 @@
+2019-11-06 10:09:01.378660
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-login/login ******************
+
+------ Success POST http://api.t4.2012iot.com/api-login/login use_time: 0.7850449085235596 ms ------
+request_params:b'username=13541354186&password=a642a77abd7d4f51bf9226ceaf891fcbb5b299b8&type=3'
+{
+  "code": 0,
+  "message": null,
+  "obj": "1766",
+  "tokenStr": "MTc2Nl90b2tlbl8sLCwxNTczMDA2MTQxNjg2"
+}
+
+****************** END 总耗时:0.78504491 平均请求时长:0.78504491毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:37:17.316002
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/api-login/login ******************
+
+------ Exception POST http://172.16.2.16:8001/api-login/login ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE'}
+request_params:b'username=13541354186&password=a642a77abd7d4f51bf9226ceaf891fcbb5b299b8&type=3'
+response:None
+error:HTTP Error 404: NOT FOUND
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求10次 ******************
+2019-11-08 09:38:41.328808
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/api-login/login ******************
+
+------ Exception POST http://172.16.2.16:8001/api-login/login ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE'}
+request_params:b'username=13541354186&password=a642a77abd7d4f51bf9226ceaf891fcbb5b299b8&type=3'
+response:None
+error:HTTP Error 404: NOT FOUND
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception POST http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5, 'token': 'SAHDJASHDAHSQUWUISDJASJDAJ=='}
+request_params:b'evId=197363018554679296&fileNumber=1111'
+response:None
+error:HTTP Error 405: METHOD NOT ALLOWED
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 09:39:26.532393
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/api-login/login ******************
+
+------ Exception POST http://172.16.2.16:8001/api-login/login ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE'}
+request_params:b'username=13541354186&password=a642a77abd7d4f51bf9226ceaf891fcbb5b299b8&type=3'
+response:None
+error:HTTP Error 404: NOT FOUND
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception GET http://172.16.2.16:8001/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+response:None
+error:HTTP Error 500: INTERNAL SERVER ERROR
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 09:40:11.408960
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/api-login/login ******************
+
+------ Exception POST http://172.16.2.16:8001/api-login/login ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE'}
+request_params:b'username=13541354186&password=a642a77abd7d4f51bf9226ceaf891fcbb5b299b8&type=3'
+response:None
+error:HTTP Error 404: NOT FOUND
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 use_time: 0.6510372161865234 ms ------
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.65103722 平均请求时长:0.65103722毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:42:25.232614
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Exception GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+response:None
+error:HTTP Error 502: Bad Gateway
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 09:43:22.916914
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 use_time: 0.22101283073425293 ms ------
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.22101283 平均请求时长:0.22101283毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:46:16.652851
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 use_time: 0.02800154685974121 ms ------
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.02800155 平均请求时长:0.02800155毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:56:34.978217
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents?evId=197363018554679296&fileNumber=1111 use_time: 0.07000398635864258 ms ------
+request_params:{'evId': '197363018554679296', 'fileNumber': '1111'}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.07000399 平均请求时长:0.07000399毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:57:08.115112
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.027001619338989258 ms ------
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.02700162 平均请求时长:0.02700162毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 09:58:23.255410
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.026001453399658203 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.02600145 平均请求时长:0.02600145毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:04:43.267145
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.18301057815551758 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.18301058 平均请求时长:0.18301058毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:09:22.286104
+--------- 测试开始 --------- 
+
+****************** START http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://api.t4.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.02800154685974121 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.02800155 平均请求时长:0.02800155毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:11:39.433949
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.9640552997589111 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.9640553 平均请求时长:0.9640553毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:39:20.166937
+--------- 测试开始 --------- 
+
+****************** START http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.24001383781433105 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.24001384 平均请求时长:0.24001384毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:41:12.493362
+--------- 测试开始 --------- 
+
+****************** START http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.1260073184967041 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.12600732 平均请求时长:0.12600732毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:46:24.211191
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.3110179901123047 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.31101799 平均请求时长:0.31101799毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:48:08.466154
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.3130180835723877 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.31301808 平均请求时长:0.31301808毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:52:14.389220
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.3220183849334717 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.32201838 平均请求时长:0.32201838毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:52:51.132322
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.2540144920349121 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': '5'}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.25401449 平均请求时长:0.25401449毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:52:58.314733
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.11400651931762695 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.11400652 平均请求时长:0.11400652毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:53:34.255788
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.30701756477355957 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.30701756 平均请求时长:0.30701756毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 10:54:14.452087
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception GET http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+response:None
+error:HTTP Error 500: INTERNAL SERVER ERROR
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 10:54:54.500378
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception GET http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+response:None
+error:HTTP Error 500: INTERNAL SERVER ERROR
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 10:55:37.137817
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Exception GET http://172.16.2.16:8001/getTodayRescueEvents ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+response:None
+error:HTTP Error 500: INTERNAL SERVER ERROR
+
+****************** END 总耗时:0 平均请求时长:0毫秒 有效请求0次 无效请求1次 ******************
+2019-11-08 10:57:26.592077
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 1.449082851409912 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392674304', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:1.44908285 平均请求时长:1.44908285毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 11:01:05.068573
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.02800154685974121 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.02800155 平均请求时长:0.02800155毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 11:01:50.943197
+--------- 测试开始 --------- 
+
+****************** START http://172.16.2.16:8001/getTodayRescueEvents ******************
+
+------ Success GET http://172.16.2.16:8001/getTodayRescueEvents use_time: 0.7350420951843262 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": [
+    {
+      "alarmTime": "2019-11-08 00:23:46",
+      "ccId": "377251752686166016",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 1,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    }
+  ],
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.7350421 平均请求时长:0.7350421毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 11:06:47.236144
+--------- 测试开始 --------- 
+
+****************** START http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.17300987243652344 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": {},
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.17300987 平均请求时长:0.17300987毫秒 有效请求1次 无效请求0次 ******************
+2019-11-08 11:08:21.308525
+--------- 测试开始 --------- 
+
+****************** START http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents ******************
+
+------ Success GET http://v3m2.api.2012iot.com/api-elevator-safety-big-data/getTodayRescueEvents use_time: 0.2930166721343994 ms ------
+request_header:{'Authorization': 'MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY=', 'publicId': 'oVIDC1KvbcEQzwwnQIE8S_SMlMrE', 'companyId': '358925794392687569', 'companyType': 5}
+request_params:{}
+{
+  "code": 0,
+  "message": "\u64cd\u4f5c\u6210\u529f",
+  "obj": [
+    {
+      "alarmTime": "2019-11-08 11:03:11",
+      "ccId": "377412665607233536",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 1,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:53:27",
+      "ccId": "377410216918032384",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 1,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:42:46",
+      "ccId": "377407529275138048",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 2,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:31:34",
+      "ccId": "377404707406127104",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:26:01",
+      "ccId": "377403313496301568",
+      "evOrder": "\u4e8c\u533a189",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:20:57",
+      "ccId": "377402041095462912",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 10:09:00",
+      "ccId": "377399029882986496",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 2,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 5,
+      "useTimeLong": "15\u520656\u79d2"
+    },
+    {
+      "alarmTime": "2019-11-08 09:53:23",
+      "ccId": "377395103326576640",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 09:44:39",
+      "ccId": "377392902692708352",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    },
+    {
+      "alarmTime": "2019-11-08 09:35:04",
+      "ccId": "377390492578521088",
+      "evOrder": "\u4e8c\u533a230",
+      "level": 3,
+      "projectAddress": "\u65e0\u9521\u5e02\u65b0\u5434\u533a\u957f\u6c5f\u5317\u8def\u592a\u6e56\u82b1\u56ed-\u4e8c\u533a",
+      "projectName": "\u592a\u6e56\u82b1\u56ed\u4e8c\u533a",
+      "status": 3
+    }
+  ],
+  "tokenStr": "MjE5OTIwMzA4Mjk4MDk2NjQwX3Rva2VuXywsLDE1NDU3OTAwNDE1MjY="
+}
+
+****************** END 总耗时:0.29301667 平均请求时长:0.29301667毫秒 有效请求1次 无效请求0次 ******************

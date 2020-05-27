@@ -1,0 +1,18 @@
+{
+  "url": "/api-login/login",
+  "header": {
+  },
+  "method": "POST",
+  "cases": [
+    {
+      "method": "POST",
+      "params": {
+        "username": "13541354186",
+        "password": "a642a77abd7d4f51bf9226ceaf891fcbb5b299b8",
+        "type": 3
+      }
+    }
+  ]
+}
+
+

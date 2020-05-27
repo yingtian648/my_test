@@ -1,0 +1,12 @@
+{
+  "url": "/test-case/signIn/getSignIn",
+  "header": {},
+  "method": "GET",
+  "cases": [
+    {
+      "params": {
+        "key": "value"
+      }
+    }
+  ]
+}

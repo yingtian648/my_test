@@ -1,0 +1,16 @@
+{
+  "url": "/workOrder/rescueFinish",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "method": "POST",
+  "cases": [
+    {
+      "params": {
+        "tripFlag": "1",
+        "woId": "1",
+        "memo": "你现在好吗"
+      }
+    }
+  ]
+}
