@@ -1,19 +1,9 @@
-import asyncio
 import threading
-
-import sched
-
-import websockets
-
-from common.install_config import config, application, socketio
-from common.timer_config import send_maintenance_msg, send_maintenance_msg1
-from module.service.image.api_img import img, IMAGE_URL
-from flask import Flask, render_template
-from flask_socketio import SocketIO
-from datetime import date
+from common.init_config import application, config
+from services.common.service_com import module_common,module_common_prefix
+from services.files.service_file import module_file,module_file_prefix
 import datetime
 
-from module.service.web_socket.api_socket import socket_time
 
 
 def install_config():
@@ -40,21 +30,22 @@ def printHello():
     timer.start()
 
 if __name__ == "__main__":
-    mq_thr = threading.Thread(target=install_config, name='MQThread')
-    mq_thr.daemon = True
-    mq_thr.start()
+    # mq_thr = threading.Thread(target=install_config, name='MQThread')
+    # mq_thr.daemon = True
+    # mq_thr.start()
 
-    sq_thr = threading.Thread(target=install_socket, name='SOCKETThread')
-    sq_thr.daemon = True
-    sq_thr.start()
+    # sq_thr = threading.Thread(target=install_socket, name='SOCKETThread')
+    # sq_thr.daemon = True
+    # sq_thr.start()
 
-    application.register_blueprint(img, url_prefix=IMAGE_URL)
+    application.register_blueprint(module_common, url_prefix=module_common_prefix)
+    application.register_blueprint(module_file, url_prefix=module_file_prefix)
 
-    # application.run(
-    #     host=config.listen,
-    #     port=config.port,
-    #     debug=config.debug,
-    #     threaded=True
-    # )
+    application.run(
+        host=config.listen,
+        port=config.port,
+        debug=config.debug,
+        threaded=True
+    )
 
-    socketio.run(application)
+    # socketio.run(application)

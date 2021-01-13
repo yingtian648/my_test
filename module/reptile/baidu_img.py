@@ -10,7 +10,7 @@ from os.path import exists, join
 from os import makedirs
 
 import re
-from common.install_config import base_image_path
+from common.init_config import base_image_path
 import time
 from util.date_format import get_datenow_millis_str
 

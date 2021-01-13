@@ -5,7 +5,7 @@
 # Desc :
 from flask import request
 
-from common.install_config import application
+from common.init_config import application
 
 
 @application.before_request

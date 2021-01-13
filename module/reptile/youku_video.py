@@ -11,11 +11,11 @@ from os import makedirs
 from os.path import exists
 import json
 import datetime
-import rsa
+# import rsa
 import sys
 import base64
 
-from common.install_config import base_video_path
+from common.init_config import base_video_path
 from util.date_format import get_date_between
 import cProfile
 
@@ -37,33 +37,33 @@ pub_key = '-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBAIsdz29RRLO3zKsl8PHJDl3UBOik6
 priv_key = '-----BEGIN RSA PRIVATE KEY-----\nMIICYAIBAAKBgQCLHc9vUUSzt8yrJfDxyQ5d1ATopOmKbPLH1RU5Amr2aCtXT27F+2eGn/RI9H0cGyfd9o2XrRIQ3K5XaNGN1fF9V4JsXlJkeviLzn/KHiqLiur/ibtUBykAUWexNisfguTEMbGVyJ4UWggPCu8K1Ibcwc2dY5wcK0fPOXzBoFC7JQIDAQABAoGAZXWfVOtrdLsm7Oel+2EMNkgsMFQd85QT2MRCTyrBQealPW80NfZuAZRlAFQ3bqkrgUmQ6L8TvvKDwEI0fJcc39/ciGXVIu5rwkWARuD9JKMg07mfa+YyA28B2UYx7wnP0l5CHFXmwmWtPk5fmXjnXDIMm3+6xaJnX/M2MuGAq8ECRQDZNm8q+TsysjOJfLbgyO4+ydybGjnPm0U6K4jaHItHaBpV6geRHikNfndgfA+Moup2LW7W0Bnmz22LVAbjcegY1GBHdQI9AKP1UfpCI7QnEFj8Oi6KG5huGVD35gZVRRXMqCEeJ8ggTDvxXhUcRmz4On3OzVX/IRMx21syEYOQBB7e8QJEM7oh2TMHJPiJC2nWx0syaWN7FLi3IbiRUNwDOCXqCTRCaUlVSfrLvfnrBeAld9FoUoJZTfC66ltlc/OrvEhpBFi3IO0CPB7mOdffJRlrj0Il7tUchAzbGvxOa9Rft5BfLIRpSXgG1jcpyuBRntgkg+l30uzVEyep6rwqGHDh8FTdEQJFALqx+WHGimgrMtYPV/FH1CTxtxKb9v2YNPkx9YIDuxkwLh+beUzmHWRQqkCErEx7ln0Dn2mWSsOLAvGwGdSMhyfmqDkq\n-----END RSA PRIVATE KEY-----'
 
 
-# 加密
-def msg_encrypt(msg: str):
-    print('------------加密-----------')
-    pub = rsa.PublicKey.load_pkcs1(pub_key.encode('utf-8'))
-    print(type(pub))
-    secret_msg = rsa.encrypt(msg.encode('utf-8'), pub)
-    print(secret_msg)
-    return secret_msg
-
-
-# 解密
-def msg_dencrypt(secret_msg: str):
-    print('------------解密-----------')
-    priv = rsa.PrivateKey.load_pkcs1(priv_key.encode('utf-8'))
-    print(type(priv))
-    res_msg = rsa.decrypt(secret_msg, priv)
-    print(res_msg.decode('utf-8'))
-    return
-
-
-def ras_install():
-    (pubkey, privkey) = rsa.newkeys(1024)
-    pub = pubkey.save_pkcs1()
-    priv = privkey.save_pkcs1()
-    print(pub.decode('utf-8'))
-    print(priv.decode('utf-8'))
-    return
+# # 加密
+# def msg_encrypt(msg: str):
+#     print('------------加密-----------')
+#     pub = rsa.PublicKey.load_pkcs1(pub_key.encode('utf-8'))
+#     print(type(pub))
+#     secret_msg = rsa.encrypt(msg.encode('utf-8'), pub)
+#     print(secret_msg)
+#     return secret_msg
+#
+#
+# # 解密
+# def msg_dencrypt(secret_msg: str):
+#     print('------------解密-----------')
+#     priv = rsa.PrivateKey.load_pkcs1(priv_key.encode('utf-8'))
+#     print(type(priv))
+#     res_msg = rsa.decrypt(secret_msg, priv)
+#     print(res_msg.decode('utf-8'))
+#     return
+#
+#
+# def ras_install():
+#     (pubkey, privkey) = rsa.newkeys(1024)
+#     pub = pubkey.save_pkcs1()
+#     priv = privkey.save_pkcs1()
+#     print(pub.decode('utf-8'))
+#     print(priv.decode('utf-8'))
+#     return
 
 
 def logging(fun):

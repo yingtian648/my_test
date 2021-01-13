@@ -10,7 +10,7 @@ from os import makedirs
 from os.path import exists
 import json
 
-from common.install_config import base_songs_path
+from common.init_config import base_songs_path
 
 url_163_download = 'http://music.163.com/song/media/outer/url?id={}.mp3'
 

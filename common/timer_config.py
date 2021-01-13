@@ -4,8 +4,6 @@
 # Author : LiuShiHua
 # Desc :
 import datetime
-import schedule
-
 
 def send_maintenance_msg():
     print(str(datetime.datetime.now()) + ":发送维保信息")

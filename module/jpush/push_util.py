@@ -94,5 +94,5 @@ def validate():
     push.send_validate()
 
 
-for i in range(2):
-    push_users_msg()
+# for i in range(2):
+#     push_users_msg()
