@@ -3,6 +3,7 @@
 # Time : 2018/9/26 9:43
 # Author : LiuShiHua
 # Desc :
+import logging
 from pathlib import PurePath
 
 from flask import Flask
@@ -11,20 +12,23 @@ from sqlalchemy.orm import sessionmaker
 from flask_cors import CORS
 
 from common.config_parse import *
+from util.log_util import get_log_level
+
 CONFIG_DIR = PurePath(__file__).parent.parent / 'config'
 CONFIG_FILENAME = str(CONFIG_DIR / 'common.ini')
 config = Config()
 ConfigParser.load(CONFIG_FILENAME, config)
 
-base_image_path = config.save_image_path
-base_video_path = config.save_video_path
-base_songs_path = config.save_songs_path
+file_base_path = config.file_base_path
 
 # 为支持 uWSGI 默认加载点，Flask 应用名称不能修改
 application = Flask('api-warp-drive')
 # 支持 JSON 显示中文
 application.config['JSON_AS_ASCII'] = False
 application.config['SECRET_KEY'] = 'secret!'
+
+# 设置日志级别
+logging.basicConfig(level=get_log_level(config.log_level), format=' %(asctime)s %(levelname)s ----->：%(message)s')
 
 # 前端跨域
 CORS(application)

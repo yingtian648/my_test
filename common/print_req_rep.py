@@ -14,13 +14,16 @@ def before_request():
     print(str(request.headers).rstrip())
     print("请求地址：" + str(request.path))
     print("请求方法：" + str(request.method))
-    print("请求GET参数：" + str(request.args))
-    print("请求POST参数：" + str(request.form))
+    print("请求ARGS参数：" + str(request.args))
+    print("请求FORM参数：" + str(request.form))
 
 @application.after_request
 def after_request(response):
     print('================ 返回 ===============')
     print("返回状态码：" + str(response.status_code).rstrip())
     print(str(response.headers).rstrip())
-    print(str(response.data.rstrip()))
+    try:
+        print(str(response.data.rstrip())) #返回为文件时报错
+    except:
+        print("response file")
     return response

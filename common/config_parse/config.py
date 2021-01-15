@@ -19,6 +19,8 @@ class Config(ConfigBase):
         self.port = 0
         self.debug = True
 
+        self.log_level = "DEBUG"
+
         self.mysql_host = ''
         self.mysql_port = 3306
         self.mysql_user = ''
@@ -26,6 +28,4 @@ class Config(ConfigBase):
         self.mysql_db = ''
 
 
-        self.save_image_path = ''
-        self.save_video_path = ''
-        self.save_songs_path = ''
+        self.file_base_path = ''

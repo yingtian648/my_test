@@ -1,7 +1,7 @@
 import threading
 from common.init_config import application, config
-from services.common.service_com import module_common,module_common_prefix
-from services.files.service_file import module_file,module_file_prefix
+from services.common.s_com import module_common,module_common_prefix
+from services.files.s_file import module_file,module_file_prefix
 import datetime
 
 
