@@ -4,6 +4,7 @@ from services.common.s_com import module_common,module_common_prefix
 from services.files.s_file import module_file,module_file_prefix
 import datetime
 
+from util.IpUtil import printIpInfo
 
 
 def install_config():
@@ -30,6 +31,7 @@ def printHello():
     timer.start()
 
 if __name__ == "__main__":
+    printIpInfo()
     # mq_thr = threading.Thread(target=install_config, name='MQThread')
     # mq_thr.daemon = True
     # mq_thr.start()
