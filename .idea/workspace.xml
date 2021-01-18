@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a36c575-f7c2-44ae-b2d8-12211df1c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/IpUtil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/print_req_rep.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/print_req_rep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/common.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/common.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/running_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/common/s_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/common/s_com.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

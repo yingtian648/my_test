@@ -16,6 +16,7 @@ before_request
 request.form.get("key", type=str, default=None) 获取表单数据，
 request.args.get("key") 获取get请求参数，
 request.values.get("key") 获取所有参数。
+request.get_json().get("key") 获取json参数。
 """
 
 
@@ -43,7 +44,7 @@ def getUserEmployeeInfo():
 
 @application.route(module_common_prefix + '/updateUserInfo', methods=['POST'])
 def updateUserInfo():
-    user_name = request.form.get('userName')
-    password = request.form.get('password')
-    sex = request.form.get('sex')
+    user_name = request.get_json().get('userName')
+    password = request.get_json().get('password')
+    sex = request.get_json().get('sex')
     return make_api_respone(0, "success", {"user_name": user_name, "password": password, "sex": sex}, None)
